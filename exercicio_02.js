@@ -5,8 +5,8 @@ const quantidadesnotas = 4;
  
 let nome = prompt("Digite seu nome:");
  
-for (let i = 1; i <= quantidadesnotas; i++) {
-    let nota = parseFloat(prompt(`Digite a Nota ${i}:`));
+for (let nba = 1; nba <= quantidadesnotas; nba++) {
+    let nota = parseFloat(prompt(`Digite a Nota ${nba}:`));
     notas.push(nota);
     soma += nota;
 }
